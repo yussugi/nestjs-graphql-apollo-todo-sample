@@ -67,7 +67,7 @@ Next, fix `src/app.module.ts`.
 })
 ```
 
-## Define the model.
+## Define the model(entity)
 
 First, create `todo` files(module, service, resolver). Next, to define the `todo` model, create `todo.models.ts` file.
 
@@ -146,7 +146,7 @@ Once the model is defined, the service and resolver are implemented. If the serv
 
 ## Execute GraphQL command
 
-Access `http://localhost:3000/graphql`. If the Apollo Server does not start, execute the following command to start the Apollo Server.
+Access `http://localhost:11888/graphql`. If the Apollo Server does not start, execute the following command to start the Apollo Server. _-Notice-_ Define port number at `main.ts` file.
 
 ```bash
 $ npm run start:dev
